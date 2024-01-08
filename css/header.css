@@ -1,5 +1,8 @@
 header {
-  background-color: #446731;
+  background-color: #395827;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 header .wrap {
   height: 100px;
@@ -79,20 +82,22 @@ header .wrap span.lang a::after{
 header .wrap a.ham {
 
 }
-header .wrap a.ham select {
-  
+header .wrap a.ham span {
+  display: block;
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+
   opacity: 0;
-  width: 24px; 
-  height: 24px;
+  line-height: 2;
+  padding: 10px 0;
 }
-header .wrap a.ham select:hover{
-  
+header .wrap a.ham span:hover {
+
   opacity: 1;
 }
-header .wrap a.ham select option {
 
-  
-}
+
 
 
 

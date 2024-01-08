@@ -1,63 +1,74 @@
 section#promotion {
   
+  display: flex;
+  align-items: center;
 }
 section#promotion .wrap {
   
-  height: 100%;
-  gap: 15px;
-  position: relative; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
 }
 section#promotion .wrap h2 {
   
   color: #021A12;
-  transform: translate(0, -270px);  
   font-weight: 600;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
 }
 section#promotion .wrap p {
   
-  position: absolute;
-  right: 0;
   line-height: 2;
   font-size: 22px;
+  white-space: nowrap;
 }
 section#promotion .wrap iframe {
   
   border: 1px solid #333;
   width: 45vw; 
-  position: absolute;
-  left: 0;
-  z-index: -1;
-  top: 15%;
   height: 16.3125vw;
-  transform: translatey(100px);
+  grid-column: 1;
+  grid-row: 2;
 }
 
 section#business {
   
   background-color: #bac987;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section#business .wrap {
   
-  height: 100%;
-  gap: 15px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
 }
 section#business .wrap h2 {
   
   color: #021A12;
   font-weight: 600;
-  transform: translateY(150px);
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding-top: 150px;
 }
 section#business .wrap p {
   
   margin-bottom: 15px;
+  display: none;
 }
 section#business .wrap ul {
   
-  display: grid;
-  grid-template-columns: 50% 50%;
-  height: 80%;
+  position: relative;
 }
 section#business .wrap ul li {  
 }
@@ -90,15 +101,16 @@ section#business .wrap ul li:nth-child(2) a:before{
 }
 section#business .wrap ul li a figure {
   
-  position: relative;
   border: 1px solid green;
+  position: absolute;
+  top: 0;
+  padding: 0 20px;
 }
 section#business .wrap ul li a figure img {
   
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100%;
 }
 
 section#business .wrap ul li a figure img:nth-child(1){
@@ -107,7 +119,6 @@ section#business .wrap ul li a figure img:nth-child(1){
 }
 section#business .wrap ul li a figure figcaption {
   
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,6 +129,8 @@ section#business .wrap ul li a figure figcaption {
   line-height: 2;
   font-size: 30px;
   color: #1B2658;
+  position: absolute;
+  align-items: center;
 }
 section#business .wrap ul li a figure figcaption:hover{
   
