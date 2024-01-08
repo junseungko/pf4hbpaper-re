@@ -1,0 +1,32 @@
+.ham{
+    
+    /*! display: initial; */
+    width: 30px; 
+    height: 30px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/menu.svg);
+    font-size: 0;
+    background-repeat: no-repeat;
+}
+.ham span{
+
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: white;
+}
+.ham:hover{
+    
+}
+.ham span:nth-child(1){
+
+}
+.ham span:nth-child(2){
+
+}
+.ham span:nth-child(3){
+
+}

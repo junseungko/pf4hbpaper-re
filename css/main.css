@@ -1,0 +1,398 @@
+section#promotion {
+  
+}
+section#promotion .wrap {
+  
+  height: 100%;
+  gap: 15px;
+  position: relative; 
+}
+section#promotion .wrap h2 {
+  
+  color: #021A12;
+  transform: translate(0, -270px);  
+  font-weight: 600;
+}
+section#promotion .wrap p {
+  
+  position: absolute;
+  right: 0;
+  line-height: 2;
+  font-size: 22px;
+}
+section#promotion .wrap iframe {
+  
+  border: 1px solid #333;
+  width: 45vw; 
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 15%;
+  height: 16.3125vw;
+  transform: translatey(100px);
+}
+
+section#business {
+  
+  background-color: #bac987;
+  height: 100%;
+}
+section#business .wrap {
+  
+  height: 100%;
+  gap: 15px;
+  text-align: center;
+}
+section#business .wrap h2 {
+  
+  color: #021A12;
+  font-weight: 600;
+  transform: translateY(150px);
+}
+section#business .wrap p {
+  
+  margin-bottom: 15px;
+}
+section#business .wrap ul {
+  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 80%;
+}
+section#business .wrap ul li {  
+}
+section#business .wrap ul li a {
+  
+  perspective: 800px;
+}
+section#business .wrap ul li a::before{
+  content: "";
+  display: block;
+  width: 728px;
+  height: 335px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#business .wrap ul li:nth-child(1) a::before{
+  /*! background-image: url(../img/busi_01.png); */
+  /*! background-color: #e4e2e2; */
+  /*! transform: rotateY(0deg); */
+  /*! transition: all 1s; */
+}
+/* section#business .wrap ul li:nth-child(1) a:hover::before{
+  transform: rotateY(60deg);
+} */
+
+section#business .wrap ul li:nth-child(2) a:before{
+  
+ 
+}
+section#business .wrap ul li a figure {
+  
+  position: relative;
+  border: 1px solid green;
+}
+section#business .wrap ul li a figure img {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+}
+
+section#business .wrap ul li a figure img:nth-child(1){
+  
+  background-image: url(../img/busi_01.png);
+}
+section#business .wrap ul li a figure figcaption {
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  line-height: 2;
+  font-size: 30px;
+  color: #1B2658;
+}
+section#business .wrap ul li a figure figcaption:hover{
+  
+  opacity: 1;
+  font-weight: 600;
+}
+
+section#products {
+  
+  position: relative;
+}
+section#products .wrap {
+  
+  height: 100%;
+}
+section#products .wrap h2 {
+  
+  margin: 0 auto;
+  color: #021A12;
+  padding: 100px;
+  font-weight: 600;
+}
+section#products .wrap ul {
+  
+  position: absolute;
+  bottom: 30px;
+}
+section#products .wrap ul li {
+  
+}
+section#products .wrap ul li a {
+  
+  line-height: 2;
+  padding-right: 30px;
+}
+section#products .wrap ul li a:hover{
+  color: blue;
+}
+section#products .wrap div {
+  
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  grid-template-rows: auto auto;
+}
+section#products .wrap div article {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+/* section#products .wrap div article:not(:first-child) {
+  display: none;
+} */
+section#products .wrap div article h3 {
+  
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+section#products .wrap div article a {
+  
+}
+section#products .wrap div article a::after{
+  content: "";
+  background-image: url(../img/arrowright.svg);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+}
+section#products .wrap div article figure {
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section#products .wrap div article figure img {
+
+  width: 360px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  display: block;
+}
+section#products .wrap div article figure figcaption {
+
+  position: absolute;
+  display: flex;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  color: #1b2658;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 550;
+}
+section#products .wrap div article figure figcaption:hover{
+  
+  opacity: 1;
+}
+/* section#products .wrap div article p {
+  
+} */
+/* section#products .wrap div article a {
+  
+  width: 130px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+} */
+/* section#products .wrap div article a::after {
+  content: "";
+  background-image: url(../img/arrowright.svg);
+  width: 35px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  right: 0;
+} */
+
+section#news {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-color: #bac987;
+  height: 100%;
+}
+section#news .wrap {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+section#news .wrap h2 {
+  
+  position: absolute;
+  color: #021A12;
+  font-weight: 600;
+  padding: 100px;
+  transform: translate(-600px, 100px);
+}
+section#news .wrap h3 {
+  
+}
+section#news .wrap p {
+  
+}
+section#news .wrap ul { 
+  row-gap: 20px;
+  flex-direction: column;
+  padding: 200px;
+  height: 100%;
+}
+section#news .wrap ul li {
+  
+}
+section#news .wrap ul li:nth-child(1){
+  
+  grid-column: 1 / span 4;
+  grid-row: 1;
+}
+section#news .wrap ul li:nth-child(2){
+  
+  grid-column: 1 / span 4;
+  grid-row: 2;
+}
+section#news .wrap ul li:nth-child(3){
+  
+  grid-column: 1 / span 4;
+  grid-row: 3;
+}
+section#news .wrap ul li:nth-child(4){
+  
+  grid-column: 1 / span 4;
+  grid-row: 4;
+}
+ 
+section#news .wrap ul li a {
+  
+  padding: 15px;
+}
+section#news .wrap ul li a:nth-child(odd){
+  
+  border-top: 1px solid #333;
+}
+section#news .wrap ul li a figure{
+  
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+section#news .wrap ul li a figure img{
+  
+}
+section#news .wrap ul li a figure figcaption{
+  
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  gap: 10px;
+  line-height: 1.4;
+  font-size: 14px;
+  opacity: 0;
+  transition: 1s;
+}
+section#news .wrap ul li a figure:hover figcaption{
+  
+  opacity: 1;
+}
+
+section#news .wrap ul li a figure figcaption span{
+  
+  display: block;
+  font-size: 16px;
+}
+section#news .wrap ul li a span {
+  
+  font-size: 13px;
+  color: #823647;
+  font-weight: 800;
+  opacity: 0.6;
+}
+section#news .wrap ul li a time {
+  
+}
+section#news .wrap a.more {
+  
+  position: absolute;
+  bottom: 80px;
+  width: 168px;
+  height: 35px;
+  border: 1px solid #333;
+  border-radius: 30px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+section#news .wrap a.more::after{
+  content:"";
+  background-image: url(../img/arrowright.svg);
+  width: 30px;
+  height: 28px;
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  background-size: cover;
+}

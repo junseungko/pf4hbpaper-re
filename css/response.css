@@ -1,0 +1,93 @@
+@media screen and (max-width:980px) {
+  header{
+  position: static;
+  }
+  header .wrap h1 a{
+  margin-left: 20px;
+  }
+/* title   */
+  #title .wrap .witem h2{
+  font-size: 48px;
+  right: 100px;
+  }
+  #title .wrap .witem p{
+  right: 100px;
+  }
+/* promotion   */
+  section#promotion .wrap{
+    
+  }
+  section#promotion .wrap h2{
+  transform: translate(0, -500px);
+  }
+  section#promotion .wrap iframe{
+  width: calc(100vw - 20px);
+  height: 36.25vw;
+  top: 300px;
+  padding: 0 10px;
+  }
+  section#promotion .wrap p{
+  font-size: 18px;
+  top: 200px;
+  left: 20px;
+  padding: 20px;
+  }
+/* business   */
+  section#business .wrap ul li a figure{
+  margin: 0 20px;
+  }
+
+/* product   */
+  section#products .wrap div article{
+  height: 50%;
+  }
+  section#products .wrap div article figure{
+  }
+  section#products .wrap div article figure img{
+    
+  margin: 20px;
+  width: 22vw;
+  height: 20vw;
+  }
+  section#products .wrap div article figure figcaption{
+  text-align: left;
+  opacity: 1;
+  white-space: initial;
+  top: 180px;
+  line-height: 1.6;
+  padding: 0 20px;
+  }
+  section#products .wrap div article h3{
+    
+  text-align: center;
+  }
+/* news   */
+  section#news .wrap h2{
+  transform: none;
+  }
+  section#news .wrap ul{
+  white-space: nowrap;
+  padding: 250px 100px;
+  }
+/* footer   */
+  footer .wrap a.logo{
+  left: 20px;
+  }
+  footer .wrap div select{
+  margin-right: 20px;
+  }
+  footer .wrap address{
+    
+  margin-left: 20px;
+  }
+  footer .wrap p{
+  margin-left: 20px;
+  }
+  footer .wrap a.blog{
+  right: 20px;
+  }
+/* aside   */
+  aside ul{ 
+  display: none;
+  }
+}

@@ -1,0 +1,31 @@
+aside{
+  position: fixed;
+  right: 100px;
+  top: calc((100% - 100px) / 2); 
+  z-index: 1;
+}
+aside ul{
+   
+}
+aside ul li{
+  
+}
+aside ul li:not(:last-child){
+  margin-bottom: 20px;
+}
+aside ul li a{
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-color: #BC887E;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2;
+}
+.currentB{
+  background-color:blue; 
+}
+.currentW{
+  background-color:white; 
+}
