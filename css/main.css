@@ -234,12 +234,12 @@ section#products .wrap div article figure figcaption {
   height: 100%;
   color: #1b2658;
   flex-wrap: wrap;
-  text-align: center;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   font-size: 12px;
   font-weight: 550;
+  align-items: center;
 }
 section#products .wrap div article figure figcaption:hover{
   

@@ -9,6 +9,8 @@ footer .wrap {
   padding-bottom: 50px;
   position: relative;
   max-width: 100%;
+  display: flex;
+  justify-content: end;
 }
 footer .wrap::before {
   content:"";
@@ -64,11 +66,7 @@ footer .wrap ul.pnb li:not(:first-child) a{
 }
 footer .wrap div{
 
-  width: 100%; 
-  justify-content: end;
   gap: 20px;
-  align-items: center;
-  border-bottom: 1px solid #eee;
 }
 footer .wrap div ul.fnb{
 
@@ -131,6 +129,7 @@ footer .wrap p{
 
   color: black;
   font-size: 14px;
-  padding-left: 190px;
   opacity: 0.7;
+  padding-left: 190px;
+  width: 100%;
 }
