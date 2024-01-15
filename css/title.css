@@ -33,7 +33,7 @@
   
 }
 #title .wrap .witem h2 {
-  color: #F55D3B;
+  color: #F4370A;
   font-weight: 600;
   position: absolute;
   top: 250px;
@@ -50,6 +50,7 @@
   top: 210px;
   right: 170px;
   font-weight: 600;
+  color: #eee;
 }
 #title .wrap .arrow{
   
